@@ -1,0 +1,24 @@
+.navigation__list {
+    list-style: none;
+    border-top: 1px solid grey;
+    padding: 10px 0;
+    padding-left: 0px;
+    margin-bottom: 0;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: blue;
+}
+
+.navigation__link:visited {
+    color: blue;
+}
+
+.navigation__link:hover {
+    color: rgba(0, 0, 255, 0.75);
+}
+
+.navigation__link:active {
+    color: rgba(0, 0, 255, 0.6)
+}

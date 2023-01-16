@@ -1,0 +1,10 @@
+.imageContainer {
+    overflow-x: auto;
+}
+
+.imageContainer__funnyAnimalPicture {
+    border: 5px dotted grey;
+    border-radius: 5%;
+    margin: 50px;
+    padding: 5px;
+}

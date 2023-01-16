@@ -1,0 +1,41 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.body {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    line-height: 1.25;
+    font-family: 'Lato', sans-serif;
+    background-color: rgba(149, 238, 141, 0.329);
+}
+
+.body--dark {
+    color: #eee;
+    background-color: #222;
+}
+
+.link {
+    text-decoration: none;
+    color: blue;
+}
+
+.link:visited {
+    color: blue;
+}
+
+.link:hover {
+    color: rgba(0, 0, 255, 0.75);
+}
+
+.link:active {
+    color: rgba(0, 0, 255, 0.6)
+}

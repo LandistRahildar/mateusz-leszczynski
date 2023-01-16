@@ -1,0 +1,35 @@
+.table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.table__cell {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.table__cell--header {
+    background-color: rgba(202, 202, 202, 0.575);
+}
+
+.table__cell:hover {
+    background-color: rgba(221, 221, 221, 0.473);
+}
+
+.table__cell--header:hover {
+    background-color: rgba(221, 221, 221, 0.616);
+}
+
+.table__cell--special {
+    background-color: rgba(83, 211, 83, 0.582);
+}
+
+.table__cell--special:hover {
+    background-color: rgba(83, 211, 83, 0.836);
+}
+
+.table__cell--superSpecial:hover {
+    background-color: gold;
+}
