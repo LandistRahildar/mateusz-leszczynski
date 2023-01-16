@@ -2,5 +2,8 @@
 ## Demo
 https://landistrahildar.github.io/homepage-2/
 ## Description
-This is my the best website ever made.
-
+This is the best website I have ever made. Website includes some fragments of prose and poetry whitch I like, table about special ducks skills standing out among other animals and background color changing  button.
+For create this website I use HTML, CSS and JS.
+Nothing special, but I'm begginer, of course.
+## Presentation
+gif
