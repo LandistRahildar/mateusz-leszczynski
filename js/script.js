@@ -1,11 +1,36 @@
+// {
+//     const buttonChangingBackground = document.querySelector(".js-button");
+//     const body = document.querySelector(".body");
+//     const buttonChangingBackgroundAction = document.querySelector(".js-buttonAction");
+
+//     buttonChangingBackground.addEventListener("click", () => {
+//         body.classList.toggle("body--dark");
+//         buttonChangingBackgroundAction.innerText = body.classList.contains("body--dark") ? "jasny" : "ciemny";
+//     })
+
+// }
+
 {
-    const buttonElement = document.querySelector(".js-button");
+    const welcome = () => {
+        console.log("Witam.");
+    }
 
-    buttonElement.addEventListener("click", () => {
+    welcome();
+}
+
+{
+    const toggleBackground = () => {
         const body = document.querySelector(".body");
-        const actionElement = document.querySelector(".js-buttonAction");
+        const buttonChangingBackgroundAction = document.querySelector(".js-buttonAction");
         body.classList.toggle("body--dark");
-        actionElement.innerText = body.classList.contains("body--dark") ? "jasny" : "ciemny";
-    })
+        buttonChangingBackgroundAction.innerText = body.classList.contains("body--dark") ? "jasny" : "ciemny";
+    }
 
+    const init = () => {
+        const buttonChangingBackground = document.querySelector(".js-button");
+
+        buttonChangingBackground.addEventListener("click", toggleBackground);
+    }
+
+    init();
 }
