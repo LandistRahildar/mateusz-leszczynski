@@ -1,8 +1,11 @@
-let body = document.querySelector (".body");
-let buttonElement = document.querySelector(".js-button");
-let actionElement = document.querySelector(".js-buttonAction");
+{
+    const buttonElement = document.querySelector(".js-button");
 
-buttonElement.addEventListener("click", () => {
-    body.classList.toggle("body--dark");
-    actionElement.innerText = body.classList.contains("body--dark") ? "jasny" : "ciemny";
-})
+    buttonElement.addEventListener("click", () => {
+        const body = document.querySelector(".body");
+        const actionElement = document.querySelector(".js-buttonAction");
+        body.classList.toggle("body--dark");
+        actionElement.innerText = body.classList.contains("body--dark") ? "jasny" : "ciemny";
+    })
+
+}
