@@ -1,14 +1,12 @@
-// {
-//     const buttonChangingBackground = document.querySelector(".js-button");
-//     const body = document.querySelector(".body");
-//     const buttonChangingBackgroundAction = document.querySelector(".js-buttonAction");
+    // const buttonChangingBackground = document.querySelector(".js-button");
+    // const body = document.querySelector(".body");
+    // const buttonChangingBackgroundAction = document.querySelector(".js-buttonAction");
 
-//     buttonChangingBackground.addEventListener("click", () => {
-//         body.classList.toggle("body--dark");
-//         buttonChangingBackgroundAction.innerText = body.classList.contains("body--dark") ? "jasny" : "ciemny";
-//     })
+    // buttonChangingBackground.addEventListener("click", () => {
+    //     body.classList.toggle("body--dark");
+    //     buttonChangingBackgroundAction.innerText = body.classList.contains("body--dark") ? "jasny" : "ciemny";
+    // })
 
-// }
 
 {
     const welcome = () => {
