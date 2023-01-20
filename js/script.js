@@ -28,7 +28,6 @@
 
     const init = () => {
         const buttonChangingBackground = document.querySelector(".js-button");
-
         buttonChangingBackground.addEventListener("click", toggleBackground);
     }
 
