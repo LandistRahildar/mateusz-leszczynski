@@ -1,3 +1,4 @@
+    //version of code before refactoring
     // const buttonChangingBackground = document.querySelector(".js-button");
     // const body = document.querySelector(".body");
     // const buttonChangingBackgroundAction = document.querySelector(".js-buttonAction");
@@ -8,6 +9,7 @@
     // })
 
 
+    
 {
     const welcome = () => {
         console.log("Witam.");
